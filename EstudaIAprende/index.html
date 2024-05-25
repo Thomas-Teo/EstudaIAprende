@@ -6,49 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EstudaIAprende</title>
     <link href="./css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 
-<html>
 <body>
-    <aside class="aside-e">
+    <aside class="paginas-estudo">
         <div class="paginas-navegacao">
             <div class="home">
                 <h1>EstudaIAprende</h1>
             </div>
             <div class="divisor"></div>
-            <div class="b_pagina">
-                <button>Matemática</button>
+            <div class="pagina">
+                <a href="#" class="paginas">Matérias</a>
             </div>
             <div class="divisor"></div>
         </div>
     </aside>
-    <aside class="aside-d">
+    <div class="aside-d">
         <header>
             <div class="area-pesquisa">
-            <div class="input-pesquisa">
-                <i class="fa fa-search"></i>
-                <input class="pesquisa" type="text" placeholder="Pesquisar">
-            </div>
+                <div class="input-pesquisa">
+                    <i class="ri-search-eye-line"></i>
+                    <input class="pesquisa" type="text" placeholder="Pesquisar">
+                </div>
             </div>
             <div class="area-pessoal">
                 <nav>
                     <ul>
-                        <li>perfil</li>
-                        <li>notificação</li>
-                        <li>conversas</li>
+                        <li class="full"><i class="ri-arrow-down-s-line"></i><a href="#">conversas</a><i
+                                class="ri-question-answer-line"></i></li>
+                        <li class="full"><i class="ri-arrow-down-s-line"></i><a href="#">notificação</a><i
+                                class="ri-notification-3-line"></i></li>
+                        <li class="full"><i class="ri-arrow-down-s-line"></i><a href="#">perfil</a><i
+                                class="ri-account-box-line"></i></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <div>
-            <div>
+        <div class="conteudo-favoritos">
+            <main id="conteudo-pagina">
                 <!--Conteudo da pagina-->
-            </div>
-            <aside>
-                <!--Colocar um calendario e os salvos-->
+            </main>
+            <aside class="favoritos-historico">
+                <div class="favoritos">
+                    <section class="titulo-favoritos">
+                        <h2>Favoritos</h2><i class="ri-star-line"></i>
+                    </section>
+                    <div class="card-favoritado">
+                        <div class="titulo-card">
+                            <h3>Matemática</h3><i class="ri-star-line"></i>
+                        </div>
+                        <h4>Algebra</h4>
+                        <div class="aulas">
+                            <p>Aulas assitidas</p>
+                            <p>02/10</p>
+                        </div>
+                        <div class="exercicios">
+                            <p>Exercícios concluídos</p>
+                            <p>03/10</p>
+                        </div>
+                    </div>
+                    <div class="card-favoritado">
+                        <div class="titulo-card">
+                            <h3>Matemática</h3><i class="ri-star-line"></i>
+                        </div>
+                        <h4>Algebra</h4>
+                        <div class="aulas">
+                            <p>Aulas assitidas</p>
+                            <p>02/10</p>
+                        </div>
+                        <div class="exercicios">
+                            <p>Exercícios concluídos</p>
+                            <p>03/10</p>
+                        </div>
+                    </div>
+                    <div class="card-favoritado">
+                        <div class="titulo-card">
+                            <h3>Matemática</h3><i class="ri-star-line"></i>
+                        </div>
+                        <h4>Algebra</h4>
+                        <div class="aulas">
+                            <p>Aulas assitidas</p>
+                            <p>02/10</p>
+                        </div>
+                        <div class="exercicios">
+                            <p>Exercícios concluídos</p>
+                            <p>03/10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="historico"></div>
             </aside>
         </div>
-    </aside>
+    </div>
 </body>
+
 </html>
